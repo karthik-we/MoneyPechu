@@ -18,7 +18,7 @@
         width: 100%;
         min-width: 140%;
         height: 40%;
-        margin-left:23.5%;
+        margin-left:22.5%;
         margin-top: 5%;
         overflow-x: hidden;
    }
@@ -95,9 +95,10 @@
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
+font-size: 20px;
 color:#FFFFFF;
 line-height: 16px;
+text-align: center;
 /* identical to box height, or 100% */
 
 letter-spacing: 0.2px;
@@ -127,7 +128,7 @@ margin: 0px 10px;
     width: 155px;
     height: 50px;
     right: 45px;
-    margin: -50px 1600px;
+    margin: -50px 1650px;
     
     /* primary */
     
@@ -138,7 +139,10 @@ margin: 0px 10px;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     border: none;
     margin-right: -180%;
-    margin-top: -10%;
+    margin-top: -9%;
+}
+.logo{
+    margin-left: 200%;
 }
 
 
@@ -160,7 +164,7 @@ margin: 0px 10px;
        
    }
    .logo{
-       margin-left: 190%;
+       margin-left: 220%;
        margin-top: -30px;
    }
    .ca{
@@ -742,13 +746,13 @@ margin: 0px 10px;
 @media (min-width: 768px) and (max-width: 991px) {
 
     .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 0 15px;
+        padding: 0 12px;
         font-size: 12px;
         margin-left: 6%;
         
     }
     .navigation.navbar{
-        margin-left: -55%;
+        margin-left: -50%;
         margin-top: -4%;
     }
     .logo{
@@ -760,13 +764,13 @@ margin: 0px 10px;
         
         flex-direction: row;
         align-items: center;
-        padding: 20px 36px;
+        padding: 20px 43px;
         
         position: absolute;
         width: 135px;
         height: 35px;
         right: 45px;
-        margin: 0px 600px;
+        margin: 0px 550px;
         
         /* primary */
         
@@ -777,7 +781,7 @@ margin: 0px 10px;
         box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
         border: none;
         
-        margin-top: -19%;
+        margin-top: -20%;
     }
     .ca{
         position: static;
@@ -788,7 +792,7 @@ margin: 0px 10px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 8px;
+    font-size: 17px;
     color:#FFFFFF;
     line-height: 16px;
     /* identical to box height, or 100% */
@@ -918,7 +922,7 @@ margin: 0px 10px;
         font-size: 8px;
         background-color: #00B6F0;
         color: white;
-        padding: 10px 0px;
+        padding: 20px 10px;
         width: 18%;
         height: 30px;
         max-width: 190px;
@@ -950,7 +954,7 @@ margin: 0px 10px;
         
     }
     #call{
-       margin-left: 22%; 
+       margin-left: 25%; 
        margin-top: 70%;
     }
     
@@ -1024,7 +1028,7 @@ margin: 0px 10px;
         width: 100%;
         margin-right: 20px;
         z-index: 999;
-        height: 800%;
+        height: 1200%;
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
@@ -1040,7 +1044,7 @@ margin: 0px 10px;
         margin-top: -10px;
         
     }
-    .fas{
+    #hamburger{
         color: #000;
         
     }
@@ -1059,7 +1063,7 @@ margin: 0px 10px;
         text-align: center !important;
         padding-bottom: 25px;
         margin-top: -8%;
-        margin-left: 38%;
+        margin-left: 39%;
         float: left;
     }
     .button1 {
@@ -1196,7 +1200,7 @@ margin: 0px 10px;
      color:black;
      margin-left:40%;
 }
-.fas{
+#hamburger{
     color: #000;
 }}
 @media (min-width: 368px) and (max-width: 403px) {
@@ -1341,13 +1345,10 @@ margin: 0px 10px;
      color:black;
      margin-left:40%;
 }
-.fas{
+#hamburger{
     color: #000;
 }}
-
-
-
-@media  (max-width: 365px) {
+@media (min-width: 330px) and (max-width: 365px) {
     .header {
         padding: 40px 0px 0px 0px;
     }
@@ -1362,7 +1363,7 @@ margin: 0px 10px;
         font-size: 8px;
         background-color: #00B6F0;
         color: white;
-        padding: 5px 0px;
+        padding: 10px 0px;
         width: 18%;
         height: 30px;
         max-width: 190px;
@@ -1381,11 +1382,11 @@ margin: 0px 10px;
         color: #112D57;
         padding: 5px 0px;
         width: 18%;
-        height: 30px;
+        height: 29px;
         max-width: 100px;
         
         margin-top:-86%;
-        margin-left: 25%;
+        margin-left: 26.5%;
         border: 1px solid #112D57;
         
         text-align: center;
@@ -1394,32 +1395,28 @@ margin: 0px 10px;
         
     }
     #call{
-       margin-left: 14%; 
-       margin-top: 68%;
-    }
+       margin-left: 13%; 
+       margin-top: 70%;
     
+    }
 
     .text-bg h1 {
         font-size: 25px;
         line-height: 35px;
         padding-bottom: 18px;
-        margin-left: 2%;
+        margin-left: 3%;
     }
 
     .button1 {
         float: inherit;
         margin-bottom: 30px;
-        margin-left: 2%;
+        margin-left: 3%;
         font-size: 10px;
         padding: 7px 0px;
-        width: 18%;
-        height: 30px;
-        max-width: 100px;
-        
     }
     .text-bg p{
-        margin-left: 2%;
-        margin-top: -7%;
+        margin-left: 3%;
+        margin-top: -9%;
     }
     
     .text-img figure img {
@@ -1472,7 +1469,7 @@ margin: 0px 10px;
         width: 100%;
         margin-right: 20px;
         z-index: 999;
-        height: 600%;
+        height: 650%;
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
@@ -1493,14 +1490,175 @@ margin: 0px 10px;
      color:black;
      margin-left:40%;
 }
+#hamburger{
+    color: #000;
+}}
+
+
+
+@media  (max-width: 305px) {
+    .header {
+        padding: 40px 0px 0px 0px;
+    }
+    .logo {
+        display: flex;
+        text-align: center !important;
+        justify-content: center;
+        padding-bottom: 25px;
+        margin-top: -12%;
+        margin-left: 35%;
+        float: left;
+    }
+    .button1 {
+        font-size: 8px;
+        background-color: #00B6F0;
+        color: white;
+        padding: 5px 0px;
+        width: 18%;
+        height: 30px;
+        max-width: 190px;
+        text-align: center;
+        display: inline-block;
+        
+        margin-left: -3%;
+        margin-top: -5%;
+        
+    }
+    
+    .button2{
+        
+        font-size: 10px;
+        background-color: white;
+        color: #112D57;
+        padding: 5px 0px;
+        width: 20%;
+        height: 30px;
+        max-width: 100px;
+        
+        margin-top:-89%;
+        margin-left: 27%;
+        border: 1px solid #112D57;
+        
+        text-align: center;
+        display: inline-block;
+        
+        
+    }
+    #call{
+       margin-left: -2%; 
+       margin-top: 110%;
+       
+    
+    }
+   
+
+    .text-bg h1 {
+        font-size: 20px;
+        line-height: 35px;
+        padding-bottom: 18px;
+        margin-left: 2%;
+    }
+
+    .button1 {
+        float: inherit;
+        margin-bottom: 30px;
+        margin-left: 2%;
+        font-size: 10px;
+        padding: 7px 0px;
+        width: 20%;
+        height: 30px;
+        max-width: 100px;
+        
+    }
+    .text-bg p{
+        margin-left: 2%;
+        margin-top: -7%;
+    }
+    
+    .text-img figure img {
+        width: 100%;
+        margin-left:-3%;
+        margin-top: 0%;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .titlepage h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .web_hosting p {
+        padding: 40px 0px;
+    }
+    .bg {
+        margin-bottom: 30px;
+    }
+    .cont h3 {
+        font-size: 30px;
+    }
+    .cont p {
+        padding: 0px 0px;
+        padding-bottom: 60px;
+    }
+    .cont span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .cont {
+        margin-top: 89%;
+    }
+    .main_form {
+        margin-bottom: -102%;
+        padding: 55px 15px;
+    }
+    .navigation.navbar {
+        
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -71px;
+    }
+    .navigation .navbar-collapse {
+        background: #fff;
+        padding: 20px;
+        margin-top: 56px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+        height: 640%;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #000;
+        margin-left: 30%;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border:none;
+        width: 20%;
+        float: right;
+        box-shadow: none;
+        
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+.navigation.navbar-dark .navbar-nav .nav-link.active,
+.navigation.navbar-dark .navbar-nav .nav-link.show,
+.navigation.navbar-dark .navbar-nav .show>.nav-link {
+     color:black;
+     margin-left:30%;
+}
 .navbar-toggler-icon{
     color: #000;
 }
-.fas{
+#hamburger{
     color: #000000;
 }
 }
 
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
@@ -7360,7 +7518,7 @@ overflow: hidden;
 
 @media (min-width: 992px) and (max-width: 1199px) {}
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 995px) {
 
 
 .main_form {
@@ -7455,20 +7613,370 @@ overflow: hidden;
     padding: 12px 55px;
 }
 .contact-right iframe{
-    margin-left: 29px;
+    margin-left: 40px;
     margin-top: 410px;
 }
 .social-icons{
-    margin-left: 58px;
+    margin-left: 100px;
     margin-top: -32px;
 }
 .details{
+    color: white;
     display: flex;
     flex-direction: column;
     margin-top: -42px;
-    margin-left: -25px;
+    margin-left: 0px;
+}
+#location-icon{
+    color: white;
+}
+#phone-icon{
+    color: white;
+}
+.phone p{
+    color: white;
+}
+.location p{
+    color: white;
 }
 .contact .main_form .send{
     text-align: center;
 }
+}
+
+@media (min-width:320px) and (max-width:375px){
+    .main_form {
+        margin-bottom: -102%;
+        padding: 40px 15px;
+        margin-top: -42px;
+    }
+    .contact{
+        margin-top: 1px;
+        height: 1120px;
+    } 
+    .contact .main_form .send{
+        padding: 12px 55px;
+    }
+    .contact-right iframe{
+        margin-left: 40px;
+        margin-top: 410px;
+    }
+    .social-icons{
+        margin-left: 100px;
+        margin-top: -32px;
+    }
+    .details{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -42px;
+        margin-left: 0px;
+    }
+    #location-icon{
+        color: white;
+    }
+    #phone-icon{
+        color: white;
+    }
+    .phone p{
+        color: white;
+    }
+    .location p{
+        color: white;
+    }
+    .contact .main_form .send{
+        text-align: center;
+    }
+}
+
+@media (min-width:376px) and (max-width:480px){
+    .main_form {
+        margin-bottom: -102%;
+        padding: 40px 15px;
+        margin-top: -42px;
+    }
+    .contact{
+        margin-top: 1px;
+        height: 1120px;
+    } 
+    .contact .main_form .send{
+        padding: 12px 55px;
+    }
+    .contact-right iframe{
+        margin-left: 40px;
+        margin-top: 410px;
+    }
+    .social-icons{
+        margin-left: 100px;
+        margin-top: -32px;
+    }
+    .details{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -42px;
+        margin-left: 0px;
+    }
+    #location-icon{
+        color: white;
+    }
+    #phone-icon{
+        color: white;
+    }
+    .phone p{
+        color: white;
+    }
+    .location p{
+        color: white;
+    }
+    .contact .main_form .send{
+        text-align: center;
+    }
+}
+
+@media (min-width:320px) and (max-width:365px){
+    .main_form {
+        margin-bottom: -102%;
+        padding: 40px 15px;
+        margin-top: -42px;
+    }
+    .contact{
+        margin-top: 1px;
+        height: 1120px;
+    } 
+    .contact .main_form .send{
+        padding: 12px 55px;
+    }
+    .contact-right iframe{
+        margin-left: 35px;
+        margin-top: 410px;
+    }
+    .social-icons{
+        margin-left: 80px;
+        margin-top: -20px;
+    }
+    .details{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -42px;
+        margin-left: -10px;
+    }
+    #location-icon{
+        color: white;
+    }
+    #phone-icon{
+        color: white;
+    }
+    .phone p{
+        color: white;
+    }
+    .location p{
+        color: white;
+    }
+    .contact .main_form .send{
+        text-align: center;
+    }
+    .send p{
+        margin-left: 5px;
+    }
+}
+
+@media (min-width:270px) and (max-width:319px){
+    .main_form {
+        margin-bottom: -102%;
+        padding: 40px 15px;
+        margin-top: -42px;
+    }
+    .contact{
+        margin-top: 1px;
+        height: 1120px;
+    } 
+    .contact .main_form .send{
+        padding: 12px 55px;
+    }
+    .contact-right iframe{
+        margin-left: 25px;
+        margin-top: 300px;
+    }
+    .social-icons{
+        margin-left: 35px;
+        margin-top: -10px;
+    }
+    .details{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+        margin-left: -35px;
+    }
+    #location-icon{
+        font-size: 27px;
+        color: white;
+    }
+    #phone-icon{
+        font-size: 27px;
+        color: white;
+    }
+    .phone p{
+        font-size: 15px;
+        color: white;
+    }
+    .location p{
+        font-size: 14px;
+        color: white;
+    }
+    .contact .main_form .send{
+        text-align: center;
+    }
+    .send p{
+        margin-left: 5px;
+    }
+}
+
+@media (min-width:371px) and (max-width:390px){
+    .main_form {
+        margin-bottom: -102%;
+        padding: 40px 15px;
+        margin-top: -42px;
+    }
+    .contact{
+        margin-top: 1px;
+        height: 1120px;
+    } 
+    .contact .main_form .send{
+        padding: 12px 55px;
+    }
+    .contact-right iframe{
+        margin-left: 40px;
+        margin-top: 410px;
+    }
+    .social-icons{
+        margin-left: 80px;
+        margin-top: 0px;
+    }
+    .details{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+        margin-left: 0px;
+    }
+    #location-icon{
+        color: white;
+    }
+    #phone-icon{
+        color: white;
+    }
+    .phone p{
+        color: white;
+    }
+    .location p{
+        color: white;
+    }
+    .contact .main_form .send{
+        text-align: center;
+    }
+    .send p{
+        margin-left: 5px;
+    }
+}
+
+@media (min-width:391px) and (max-width:424px){
+    .main_form {
+        margin-bottom: -102%;
+        padding: 40px 15px;
+        margin-top: -42px;
+        margin-left: 3px;
+    }
+    .contact{
+        margin-top: 1px;
+        height: 1120px;
+    } 
+    .contact .main_form .send{
+        padding: 12px 55px;
+    }
+    .contact-right iframe{
+        margin-left: 40px;
+        margin-top: 460px;
+    }
+    .social-icons{
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+    .details{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -42px;
+        margin-left: 0px;
+    }
+    #location-icon{
+        color: white;
+    }
+    #phone-icon{
+        color: white;
+    }
+    .phone p{
+        color: white;
+    }
+    .location p{
+        color: white;
+    }
+    .contact .main_form .send{
+        text-align: center;
+    }
+    .send p{
+        margin-left: 00px;
+    }
+}
+
+@media (min-width:425px) and (max-width:767px){
+    .main_form {
+        margin-bottom: -102%;
+        padding: 40px 15px;
+        margin-top: -42px;
+    }
+    .contact{
+        margin-top: 1px;
+        height: 1120px;
+    } 
+    .contact .main_form .send{
+        padding: 12px 55px;
+    }
+    .contact-right iframe{
+        margin-left:55px;
+        margin-top: 500px;
+    }
+    .social-icons{
+        margin-left: 170px;
+        margin-top: -10px;
+    }
+    .details{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+        margin-left: 60px;
+    }
+    #location-icon{
+        color: white;
+    }
+    #phone-icon{
+        color: white;
+    }
+    .phone p{
+        font-size: 20px;
+        color: white;
+    }
+    .location p{
+        font-size: 20px;
+        color: white;
+    }
+    .contact .main_form .send{
+        text-align: center;
+    }
+    .send p{
+        margin-left: 5px;
+    }
 }
