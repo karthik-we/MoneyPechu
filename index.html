@@ -58,6 +58,10 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+         
 
    </head>
    <!-- body -->
@@ -214,17 +218,13 @@
             <div class="row">
                <div class="col-md-12">
                   <p class="name">Video Library From our Media</p>
-        
-                  <iframe class="image"  src="https://www.youtube.com/embed/lvmXsKy0lBw" 
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen></iframe>
-        
-            
-                  <iframe class="image1" src="https://www.youtube.com/embed/Jh4rwpCYRe8"
-                   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                   allowfullscreen></iframe>
-          
+                  
+                  <iframe src="" class="image"></iframe>
+
+
+                     
+                  <iframe src="" class="image1"></iframe>
+                  
                  </div>
             </div>
          </div>
@@ -373,10 +373,39 @@
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/plugin.js"></script>
+      
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script>  function getVideo() {
+         $.ajax({
+           type: 'GET',
+           url: 'https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UC7fQFl37yAOaPaoxQm-TqSA&maxResults=2&order=date&type=video&videoEmbeddable=true&key=AIzaSyCLKHMYc4fHsteqkgZADqOf9BaY59UBnxc',
+           data: {
+               key: 'AIzaSyCLKHMYc4fHsteqkgZADqOf9BaY59UBnxc',
+               part: 'snippet',
+               maxResults: 2,
+               order:'date',
+               channelID: 'UC7fQFl37yAOaPaoxQm-TqSA',
+               type: 'video',
+               videoEmbeddable: true,
+           },
+           success: function(data){
+               embedVideo(data)
+           },
+           error: function(response){
+               console.log("Request Failed");
+           }
+         });
+       }
+   
+       function embedVideo(data) {
+           $('.image').attr('src', 'https://www.youtube.com/embed/' + data.items[0].id.videoId)
+           $('.image1').attr('src', 'https://www.youtube.com/embed/' + data.items[1].id.videoId)
+       }
+   
+       getVideo();</script>
    </body>
 </html>
 
